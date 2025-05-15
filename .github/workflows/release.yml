@@ -19,7 +19,7 @@ jobs:
     - name: Configure git credentials
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
-      uses: OleksiyRudenko/gha-git-credentials@v1
+      uses: OleksiyRudenko/gha-git-credentials@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     - name: Log into registry
